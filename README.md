@@ -33,7 +33,7 @@ Display that array of 5 prostar in a `<table>` and display the `picture`, `name`
 To import `prostar.json` in `App.js`, you can simply use:
 
 ```js
-import prostart from './prostart.json'
+import prostar from './prostar.json'
 ```
 
 At the end of this iteration, your application should look like this:
