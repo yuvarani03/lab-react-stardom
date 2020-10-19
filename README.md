@@ -1,13 +1,13 @@
 ![Image description](https://i1.faceprep.in/ProGrad/prograd-logo.png)
 
-# ProGrad Lab | REACT - PROSTARS
+# ProGrad Lab | REACT - STARDOM
 
 ## Learning Goals
 
 In this exercise, the goal is ProStar in react:
 
-- when and how to setup react in your application,
-- learn map, filter and reduce
+- props and state,
+- event handlers
 
 ## Getting started
 
@@ -22,11 +22,11 @@ In the end of this document, you will find guidelines on how to submit the exerc
 
 ## Instructions
 
-### PROGRESSION 1 | Display 5 ProStar
+### PROGRESSION 1 | Display 5 Star Celebrities
 
 Let's take a look at the starter code.
 
-Inside `src` folder, we can find `prostar.json`, a JSON file with the producer's contacts. Import this file and **create an array of the 5 first prostars** to use as your initial state.
+Inside `resource` folder, you can find `prostar.json`, a JSON file with the producer's contacts. Import this file and **create an array of the 5 first star celebrities** to use as your initial state.
 
 Display that array of 5 prostar in a `<table>` and display the `picture`, `name`, and `popularity` of each contact.
 
@@ -79,9 +79,6 @@ The producer also would like to remove some of their prostars. Implement a "*Del
 When they click, you should get the index of the array of that actor and use it to remove the contact from the array. Don't forget to `setState()` after you remove the prostars!
 
 At the end of this iteration, your web page may look like this after playing a little bit with the "*Delete*" buttons.
-
-
-
 
 ## Submission
 
